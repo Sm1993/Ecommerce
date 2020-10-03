@@ -7,7 +7,7 @@ from django.template import RequestContext,loader
 from website.models import *
 from website.forms import *
 from django.shortcuts import render_to_response
-from django.forms.util import ErrorList
+from django.forms.utils import ErrorList
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError
 from django.http import Http404
